@@ -2,22 +2,6 @@
 
 Crucigrama hecho en C para la materia de Sistemas Operativos. La idea es resolverlo, pero hay un detalle: cada cierto tiempo una de las palabras que no has adivinado se cambia por otra distinta (con su pista nueva), así que toca apurarse.
 
-## Cómo compilar
-
-Necesitas gcc y la libreria de pthread (en Linux y Mac vienen por defecto). Desde la carpeta del proyecto:
-
-```
-gcc main.c -o casadehojas -pthread
-```
-
-## Cómo correrlo
-
-```
-./casadehojas
-```
-
-Te aparecen las instrucciones del juego, le das ENTER y arranca.
-
 ## Cómo se juega
 
 El tablero te muestra las casillas vacias con `[_]` y al lado de cada palabra hay un numero. Para adivinar:
